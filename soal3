@@ -1,0 +1,16 @@
+3. Soal JSON Manipulation
+We have JSON Data:
+https://gist.github.com/dhamanutd/97aa0d2131903ea8c071721032c7b2a3
+
+Your tasks:
+
+Find items in Meeting Room.
+answer : https://.../97aa0d2131903ea8c071721032c7b2a3?placement=not;null&name=like:MeetingRoom
+Find all electronic devices.
+answer : https://.../97aa0d2131903ea8c071721032c7b2a3?type=like:electronic
+Find all furnitures.
+answer : https://.../97aa0d2131903ea8c071721032c7b2a3?type=like:furnitures
+Find all items was purchased at 16 Januari 2020.
+answer : https://.../97aa0d2131903ea8c071721032c7b2a3?purchased_at=like:2020-01-16
+Find all items with brown color.
+answer : https://.../97aa0d2131903ea8c071721032c7b2a3?tags[3]=like:brown 
