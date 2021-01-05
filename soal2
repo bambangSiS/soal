@@ -1,0 +1,19 @@
+2. Soal JSON Manipulation
+We have JSON Data:
+https://gist.github.com/dhamanutd/6993984928506eea49908c2e3fcbc628
+
+Your tasks:  
+Find users who doesn't have any phone numbers. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?phones=eq:null
+Find users who have articles. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?articles=not:null
+Find users who have "annis" on their name. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?full_name=eq:annis
+Find users who have articles on year 2020. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?articles=not:null&published_at=gt:2020
+Find users who are born on 1986. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?birthday=like:1986
+Find articles that contain "tips" on the title. 
+answer :https://.../6993984928506eea49908c2e3fcbc628?articles=not:null&title=not:null
+Find articles published before August 2019.
+answer :https://.../6993984928506eea49908c2e3fcbc628?articles=not:null&published_at=lt:2010-08-01
